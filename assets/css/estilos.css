@@ -1,26 +1,37 @@
 *{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: #e7e7e7d2;
+    background-color: #f4f4f4;
+}
+nav{
+    position: sticky;
 }
 .barra{
+    margin-left: 1%;
+    position: sticky;
     border-bottom: 4px solid #AFAFAF;
     display: flex;
     color:#696969;
 }
 .boton_barra{
+    position: sticky;
     background-color: #fff;
     color: #838383;
     font-size: 13px;
     font-weight: 650;
-    margin: 1.5%;
+    margin: 2%;
     width: 12%;
     height: 50%;
     border: 2px solid #AFAFAF;
 }
 .usuario{
-    background-color: #fff;
-    width: 100%;
-    height: 100%;
+    margin-left: 1%;
+    position: absolute;
+    text-align: center;
+    top: 23%;
+    background-color: #ffffff;
+    color: #696969;
+    width: 20%;
+    border-radius: 5px;
 }
 .grupo_acciones{
     display: flex;
@@ -30,7 +41,69 @@
     margin-left: 68.5%;
 }
 .icono_nav{
+    background-color: transparent;
     width: 50%;
-    margin: 2.5%;
+    margin-top: 5%;
     height: 50%;
+}
+.foto_usuario{
+    background-color: transparent;
+    position: sticky;
+    margin-top: 0%;
+    left: 8%;
+    z-index: 1;
+}
+.datos_usuario{
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 80%;
+    height: 10%;
+    background-color: transparent;
+    border-bottom: 2px solid #AFAFAF;
+    margin-bottom: 7%;
+}
+.acciones{
+    display: flex;
+    width: 100%;
+    margin-top: 2%;
+    background-color: #fff;
+}
+.columna_izquierda{
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 50%;
+    height: 290px;
+}
+.columna_derecha{
+    margin-right: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 50%;
+    height: 290px;
+
+}
+.izquierda{
+    width: 66%;
+    height: 60%;
+    background-color: transparent;
+}
+.derecha{
+    width: 70%;
+    height: 60%;
+    background-color: transparent;
+}
+p{
+    background-color: transparent;
+    color: #969696;
+    font-weight: 450;
+}
+h3{
+    background-color: transparent;
 }
