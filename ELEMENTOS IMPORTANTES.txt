@@ -1,0 +1,27 @@
+Nav-bar 
+titulo : Elementos de trabajo
+botones: Agregar trabajador
+
+Información de usuario: Deyner Antonio Romero Palomino
+C.C 1039010010
+Lider de equipo de Desarrollo
+Directo GTH
+
+Carta principal
+Elementos pendientes por asignar
+Elementos asignados
+
+Titulo de cartas: 
+Elementos de trabajo pendientes por asignar
+Cartas grises:
+Parche ocular (PROGRAMA SST)
+ASEO Y CAFETERÍA
+Retiro
+
+Colores
+#36A792 Seleccionado
+#696969 Letra cartas
+#7C7C7C Letra iconos
+#969696 Letra info de usuario
+#F6F6F6 Cartas
+#36A792 Botones derechos
