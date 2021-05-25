@@ -159,8 +159,8 @@ nav{
     height: 65%;
     width: 74.9%;
 }
-.Agregar:hover{
-    background-color: #333;
+.Agregar:hover .info{
+   display: hidden;
 }
 .Agregar{
     display:flex;
@@ -225,6 +225,16 @@ nav{
     width: 18%;
     bottom: -7%;
     color: #5B5B5B;
+}
+.info{
+    display:block;
+    position: absolute;
+    color: #fff;
+    height: 7%;
+    right: 5%;
+    bottom:92%;
+    opacity: 60%;
+    background-color: black;
 }
 h4{
     font-size: 14px;
