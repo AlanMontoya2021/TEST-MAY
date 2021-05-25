@@ -1,29 +1,42 @@
 *{
+    outline: none;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: #f4f4f4;
 }
 nav{
     position: sticky;
 }
-.barra{
+.Barra{
     margin-left: 1%;
-    position: sticky;
+    position: static;
+    height: 100%;
     border-bottom: 4px solid #AFAFAF;
     display: flex;
     color:#696969;
 }
-.boton_barra{
+.BotónSalir{
+    margin-left: 2%;
+    margin-top: 2.1%;
+    width: 5%;
+    height: 5%;  
+}
+.Boton_barra{
     position: sticky;
     background-color: #fff;
     color: #838383;
     font-size: 13px;
     font-weight: 650;
-    margin: 2%;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 0%;
     width: 12%;
-    height: 50%;
+    height: 30%;
     border: 2px solid #AFAFAF;
 }
-.usuario{
+.Usuario{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.1);
     margin-left: 1%;
     position: absolute;
     text-align: center;
@@ -33,27 +46,27 @@ nav{
     width: 20%;
     border-radius: 5px;
 }
-.grupo_acciones{
+.Grupo_acciones{
     display: flex;
     width: 30%;
     height: 9%;
     position: fixed;
     margin-left: 68.5%;
 }
-.icono_nav{
+.Icono_nav{
     background-color: transparent;
     width: 50%;
     margin-top: 5%;
     height: 50%;
 }
-.foto_usuario{
+.Foto_usuario{
     background-color: transparent;
     position: sticky;
     margin-top: 0%;
     left: 8%;
     z-index: 1;
 }
-.datos_usuario{
+.Datos_usuario{
     margin-top: 10%;
     margin-left: 10%;
     width: 80%;
@@ -62,13 +75,13 @@ nav{
     border-bottom: 2px solid #AFAFAF;
     margin-bottom: 7%;
 }
-.acciones{
+.Acciones{
     display: flex;
     width: 100%;
     margin-top: 2%;
     background-color: #fff;
 }
-.columna_izquierda{
+.Columna_izquierda{
     margin-left: 10%;
     display: flex;
     justify-content: center;
@@ -78,7 +91,7 @@ nav{
     width: 50%;
     height: 290px;
 }
-.columna_derecha{
+.Columna_derecha{
     margin-right: 10%;
     display: flex;
     justify-content: center;
@@ -87,17 +100,264 @@ nav{
     background-color: #fff;
     width: 50%;
     height: 290px;
-
 }
-.izquierda{
+.Izquierda{
     width: 66%;
     height: 60%;
     background-color: transparent;
 }
-.derecha{
+.Izquierda:hover{
+    fill:#36A792;
+}
+.Derecha{
     width: 70%;
     height: 60%;
     background-color: transparent;
+}
+.Nav_derecha{
+    display: flex;
+    position: absolute;
+    background-color: #fff;
+    width: 75%;
+    height: 18%;
+    border-radius: 5px;
+    border-bottom: 4px solid #AFAFAF;
+    top: 15%;
+    right: 2%;
+}
+.Reloj{
+    top: 20%;
+    left: 15.8%;
+    position: relative;
+    background-color: transparent;
+    width: 30%;
+    height: 55%;
+}
+.Rectangulo{
+    top: 40%;
+    right: 42%;
+    width: 25%;
+    position: absolute;
+    background-color: transparent;
+}
+.Listo{
+    top: 20%;
+    left: 45%;
+    position: absolute;
+    background-color: transparent;
+    width: 30%;
+    height: 50%;
+}
+.Elementos_pendientes{
+    border-radius: 5px;
+    display: flex;
+    position: absolute;
+    top: 33.5%;
+    right: 2.1%;
+    background-color: #fff;
+    height: 65%;
+    width: 74.9%;
+}
+.Agregar{
+    display:flex;
+    position: absolute;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #36A792;
+    color: #fff;
+    height: 6%;
+    width: 3%;
+    font-size: 25px;
+    top: 4%;
+    left: 95%;
+}
+.Titulo_pendientes{
+    color:#696969;
+    position: absolute;
+    left: 2%;
+}
+.Carta_formulario{
+    display: flex;
+    position: fixed;
+    top: 43.5%;
+    right: 3.7%;
+    height: 15%;
+    width: 72%;
+    background-color: #F6F6F6;
+    border-radius: 5px;
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.1);
+}
+.Carta_formulario2{
+    display: flex;
+    position: fixed;
+    top: 62%;
+    right: 3.7%;
+    height: 15%;
+    width: 72%;
+    background-color: #F6F6F6;
+    border-radius: 5px;
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.1);
+}
+.Carta_formulario3{
+    display: flex;
+    position: fixed;
+    top: 80%;
+    right: 3.7%;
+    height: 15%;
+    width: 72%;
+    background-color: #F6F6F6;
+    border-radius: 5px;
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.1); 
+}
+.Lista{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: transparent;
+    left: 0%;
+    border-right: 2px solid #C4C4C4;
+    height: 80%;
+    width: 18%;
+    bottom: -7%;
+    color: #5B5B5B;
+}
+h4{
+    font-size: 14px;
+}
+li{
+    margin-top: 1%;
+    margin-bottom: 3%;
+    background-color: transparent;
+}
+li#Primero{
+    font-size: 11px;
+    font-weight: 700;
+    color: #5B5B5B;
+}
+li#Segundo{
+    font-size: 11px;
+    font-weight: 620;
+    color: #848484;
+}
+li#Tercero{
+    font-size: 11px;
+    font-weight: 600;
+    color: #848484; 
+}
+.Estado_titulo{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    position: absolute;
+    border-right: 2px solid #C4C4C4;
+    bottom: 8%;
+    height: 80%;
+    width: 10%;
+    left: 23%;
+}
+.Estado_titulo h4{
+    background-color: transparent;
+    color: #5B5B5B;
+    position: absolute;
+    bottom: 30%;
+}
+.Estado{
+    background-color: #fff;
+    position: absolute;
+    border: 2px solid #848484;
+    bottom: 16%;
+    width: 95%;
+    height: 32%;
+}
+.Fecha_titulo{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    border-right: 2px solid #C4C4C4;
+    height: 79%;
+    width: 12%;
+    right: 54%;
+    top:12.5%;
+}
+.Fecha_titulo h4{
+    position: absolute;
+    bottom: 25%;
+    color:#5B5B5B;
+}
+.Fecha{
+    background-color: #fff;
+    position: absolute;
+    border: 2px solid #848484;
+    top: 56%;
+    width: 92%;
+    height: 28%; 
+}
+.Fecha_reposicion{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    border-right: 2px solid #C4C4C4;
+    height: 79%;
+    width: 14%;
+    right: 39%;
+    top:13%;  
+}
+.Fecha_reposicion h4{
+    position: absolute;
+    bottom: 25%;
+    color:#5B5B5B;  
+}
+.Fecha_re{
+    background-color: #fff;
+    position: absolute;
+    border: 2px solid #848484;
+    top: 56%;
+    width: 90%;
+    height: 28%;   
+}
+.Observaciones{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 18%;
+    right: 20%;
+}
+.clip{
+    position: absolute;
+    background-color: transparent;
+    left: 80%;
+    bottom: 25%;
+    width: 20%;
+    height: 50%;
+}
+.Observaciones_caja{
+    width: 70%;
+    height: 20%;
+    font-size: 12px;
+    color: #BBBBBB;
+    border: 2px solid #848484;
+    background-color: #fff;
+}
+.Completar{
+    position: absolute;
+    bottom: 30%;
+    width: 15%;
+    height: 30%;
+    left: 83%;
+    font-weight: 500;
+    color: #fff;
+    border: none;
+    background-color: #36A792;
+}
+hr{
+    background-color: #C4C4C4;
+    position: absolute;
+    height: 2px;
+    width: 4%;
+    top: 43.5%;
+    right: 57%;
+    transform: rotate(270deg);
 }
 p{
     background-color: transparent;
