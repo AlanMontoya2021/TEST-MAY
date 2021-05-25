@@ -44,6 +44,7 @@ nav{
     background-color: #ffffff;
     color: #696969;
     width: 20%;
+    height: 75%;
     border-radius: 5px;
 }
 .Grupo_acciones{
@@ -62,15 +63,15 @@ nav{
 .Foto_usuario{
     background-color: transparent;
     position: sticky;
-    margin-top: 0%;
+    margin-top: 1%;
     left: 8%;
     z-index: 1;
 }
 .Datos_usuario{
-    margin-top: 10%;
+    margin-top: 6%;
     margin-left: 10%;
     width: 80%;
-    height: 10%;
+    height: 15%;
     background-color: transparent;
     border-bottom: 2px solid #AFAFAF;
     margin-bottom: 7%;
@@ -78,7 +79,7 @@ nav{
 .Acciones{
     display: flex;
     width: 100%;
-    margin-top: 2%;
+    margin-top: 35%;
     background-color: #fff;
 }
 .Columna_izquierda{
@@ -135,14 +136,14 @@ nav{
 }
 .Rectangulo{
     top: 40%;
-    right: 42%;
-    width: 25%;
+    right: 47%;
+    width: 20%;
     position: absolute;
     background-color: transparent;
 }
 .Listo{
     top: 20%;
-    left: 45%;
+    left: 40%;
     position: absolute;
     background-color: transparent;
     width: 30%;
@@ -157,6 +158,9 @@ nav{
     background-color: #fff;
     height: 65%;
     width: 74.9%;
+}
+.Agregar:hover{
+    background-color: #333;
 }
 .Agregar{
     display:flex;
@@ -278,7 +282,7 @@ li#Tercero{
     height: 79%;
     width: 12%;
     right: 54%;
-    top:12.5%;
+    top:10%;
 }
 .Fecha_titulo h4{
     position: absolute;
@@ -301,7 +305,7 @@ li#Tercero{
     height: 79%;
     width: 14%;
     right: 39%;
-    top:13%;  
+    top:10%;  
 }
 .Fecha_reposicion h4{
     position: absolute;
